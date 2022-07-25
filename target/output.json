@@ -1,0 +1,1613 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 13,
+        "name": "Verifying login page using right credentials",
+        "description": "",
+        "id": "verifying-adactin-hotel-details;verifying-login-page-using-right-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 25922989356,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the adactin login page",
+            "match": {
+              "location": "AdactinStep.user_is_on_the_adactin_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6473568141,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should perform login with \"Kdprakash\" , \"RU97K8\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Kdprakash\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"RU97K8\"",
+                  "offset": 45
+                }
+              ],
+              "location": "AdactinStep.user_should_perform_login_with(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4249225634,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should perform search hotel with \"Melbourne\",\"Hotel Hervey\",\"Standard\",\"4 - Four\",\"03/07/2022\",\"04/07/2022\",\"2 - Two\"and\"2 - Two\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Melbourne\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"Hotel Hervey\"",
+                  "offset": 50
+                },
+                {
+                  "val": "\"Standard\"",
+                  "offset": 65
+                },
+                {
+                  "val": "\"4 - Four\"",
+                  "offset": 76
+                },
+                {
+                  "val": "\"03/07/2022\"",
+                  "offset": 87
+                },
+                {
+                  "val": "\"04/07/2022\"",
+                  "offset": 100
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 113
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 125
+                }
+              ],
+              "location": "AdactinStep.user_should_perform_search_hotel_with_and(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2378102799,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should perform select the hotel",
+            "match": {
+              "location": "AdactinStep.user_should_perform_select_the_hotel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2029375845,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should perform book hotel with \"Dharma\",\"Prakash\",\"OMR Chennai\",\"8766389879387331\",\"VISA\",\"October\",\"2022\" and \"1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dharma\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"Prakash\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"OMR Chennai\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"8766389879387331\"",
+                  "offset": 69
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 88
+                },
+                {
+                  "val": "\"October\"",
+                  "offset": 95
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 105
+                },
+                {
+                  "val": "\"1234\"",
+                  "offset": 116
+                }
+              ],
+              "location": "AdactinStep.user_should_perform_book_hotel_with_and(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10978042393,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Verify should after login Booking Confirmation",
+            "match": {
+              "location": "AdactinStep.verify_should_after_login_Booking_Confirm()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Verifying login page using right credentials",
+        "description": "",
+        "id": "verifying-adactin-hotel-details;verifying-login-page-using-right-credentials;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 24900338636,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the adactin login page",
+            "match": {
+              "location": "AdactinStep.user_is_on_the_adactin_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6009975657,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should perform login with \"Kdprakash\" , \"RU97K8\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Kdprakash\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"RU97K8\"",
+                  "offset": 45
+                }
+              ],
+              "location": "AdactinStep.user_should_perform_login_with(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3218597754,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should perform search hotel with \"New York\",\"Hotel Sunshine\",\"Super Deluxe\",\"3 - Three\",\"03/07/2022\",\"04/07/2022\",\"1 - One\"and\"1 - One\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"New York\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"Hotel Sunshine\"",
+                  "offset": 49
+                },
+                {
+                  "val": "\"Super Deluxe\"",
+                  "offset": 66
+                },
+                {
+                  "val": "\"3 - Three\"",
+                  "offset": 81
+                },
+                {
+                  "val": "\"03/07/2022\"",
+                  "offset": 93
+                },
+                {
+                  "val": "\"04/07/2022\"",
+                  "offset": 106
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 119
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 131
+                }
+              ],
+              "location": "AdactinStep.user_should_perform_search_hotel_with_and(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1719949918,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should perform select the hotel",
+            "match": {
+              "location": "AdactinStep.user_should_perform_select_the_hotel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1780345957,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should perform book hotel with \"Dharma\",\"Prakash\",\"OMR Chennai\",\"8766389879387331\",\"VISA\",\"October\",\"2022\" and \"1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dharma\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"Prakash\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"OMR Chennai\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"8766389879387331\"",
+                  "offset": 69
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 88
+                },
+                {
+                  "val": "\"October\"",
+                  "offset": 95
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 105
+                },
+                {
+                  "val": "\"1234\"",
+                  "offset": 116
+                }
+              ],
+              "location": "AdactinStep.user_should_perform_book_hotel_with_and(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8582154617,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Verify should after login Booking Confirmation",
+            "match": {
+              "location": "AdactinStep.verify_should_after_login_Booking_Confirm()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Verifying login page using right credentials",
+        "description": "",
+        "id": "verifying-adactin-hotel-details;verifying-login-page-using-right-credentials;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 20240855750,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the adactin login page",
+            "match": {
+              "location": "AdactinStep.user_is_on_the_adactin_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5995758838,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should perform login with \"Kdprakash\" , \"RU97K8\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Kdprakash\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"RU97K8\"",
+                  "offset": 45
+                }
+              ],
+              "location": "AdactinStep.user_should_perform_login_with(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4331504593,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should perform search hotel with \"Brisbane\",\"Hotel Hervey\",\"Deluxe\",\"4 - Four\",\"05/07/2022\",\"06/07/2022\",\"4 - Four\"and\"4 - Four\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Brisbane\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"Hotel Hervey\"",
+                  "offset": 49
+                },
+                {
+                  "val": "\"Deluxe\"",
+                  "offset": 64
+                },
+                {
+                  "val": "\"4 - Four\"",
+                  "offset": 73
+                },
+                {
+                  "val": "\"05/07/2022\"",
+                  "offset": 84
+                },
+                {
+                  "val": "\"06/07/2022\"",
+                  "offset": 97
+                },
+                {
+                  "val": "\"4 - Four\"",
+                  "offset": 110
+                },
+                {
+                  "val": "\"4 - Four\"",
+                  "offset": 123
+                }
+              ],
+              "location": "AdactinStep.user_should_perform_search_hotel_with_and(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2212285459,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should perform select the hotel",
+            "match": {
+              "location": "AdactinStep.user_should_perform_select_the_hotel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1946001201,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should perform book hotel with \"Dharma\",\"Prakash\",\"OMR Chennai\",\"8766389879387331\",\"VISA\",\"October\",\"2022\" and \"1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dharma\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"Prakash\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"OMR Chennai\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"8766389879387331\"",
+                  "offset": 69
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 88
+                },
+                {
+                  "val": "\"October\"",
+                  "offset": 95
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 105
+                },
+                {
+                  "val": "\"1234\"",
+                  "offset": 116
+                }
+              ],
+              "location": "AdactinStep.user_should_perform_book_hotel_with_and(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8150647234,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Verify should after login Booking Confirmation",
+            "match": {
+              "location": "AdactinStep.verify_should_after_login_Booking_Confirm()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Verifying login page using right credentials",
+        "description": "",
+        "id": "verifying-adactin-hotel-details;verifying-login-page-using-right-credentials;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 22746003007,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the adactin login page",
+            "match": {
+              "location": "AdactinStep.user_is_on_the_adactin_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5057814408,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should perform login with \"Kdprakash\" , \"RU97K8\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Kdprakash\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"RU97K8\"",
+                  "offset": 45
+                }
+              ],
+              "location": "AdactinStep.user_should_perform_login_with(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3541135787,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should perform search hotel with \"London\",\"Hotel Hervey\",\"Standard\",\"3 - Three\",\"03/07/2022\",\"04/07/2022\",\"2 - Two\"and\"2 - Two\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"London\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"Hotel Hervey\"",
+                  "offset": 47
+                },
+                {
+                  "val": "\"Standard\"",
+                  "offset": 62
+                },
+                {
+                  "val": "\"3 - Three\"",
+                  "offset": 73
+                },
+                {
+                  "val": "\"03/07/2022\"",
+                  "offset": 85
+                },
+                {
+                  "val": "\"04/07/2022\"",
+                  "offset": 98
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 111
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 123
+                }
+              ],
+              "location": "AdactinStep.user_should_perform_search_hotel_with_and(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1969693848,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should perform select the hotel",
+            "match": {
+              "location": "AdactinStep.user_should_perform_select_the_hotel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2042150218,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should perform book hotel with \"Dharma\",\"Prakash\",\"OMR Chennai\",\"8766389879387331\",\"VISA\",\"October\",\"2022\" and \"1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dharma\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"Prakash\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"OMR Chennai\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"8766389879387331\"",
+                  "offset": 69
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 88
+                },
+                {
+                  "val": "\"October\"",
+                  "offset": 95
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 105
+                },
+                {
+                  "val": "\"1234\"",
+                  "offset": 116
+                }
+              ],
+              "location": "AdactinStep.user_should_perform_book_hotel_with_and(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8324906682,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Verify should after login Booking Confirmation",
+            "match": {
+              "location": "AdactinStep.verify_should_after_login_Booking_Confirm()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "Verifying login page using right credentials",
+        "description": "",
+        "id": "verifying-adactin-hotel-details;verifying-login-page-using-right-credentials;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 18310460056,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the adactin login page",
+            "match": {
+              "location": "AdactinStep.user_is_on_the_adactin_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5995469117,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should perform login with \"Kdprakash\" , \"RU97K8\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Kdprakash\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"RU97K8\"",
+                  "offset": 45
+                }
+              ],
+              "location": "AdactinStep.user_should_perform_login_with(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3184588843,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should perform search hotel with \"Los Angeles\",\"Hotel Cornice\",\"Deluxe\",\"4 - Four\",\"06/07/2022\",\"07/07/2022\",\"3 - Three\"and\"3 - Three\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Los Angeles\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"Hotel Cornice\"",
+                  "offset": 52
+                },
+                {
+                  "val": "\"Deluxe\"",
+                  "offset": 68
+                },
+                {
+                  "val": "\"4 - Four\"",
+                  "offset": 77
+                },
+                {
+                  "val": "\"06/07/2022\"",
+                  "offset": 88
+                },
+                {
+                  "val": "\"07/07/2022\"",
+                  "offset": 101
+                },
+                {
+                  "val": "\"3 - Three\"",
+                  "offset": 114
+                },
+                {
+                  "val": "\"3 - Three\"",
+                  "offset": 128
+                }
+              ],
+              "location": "AdactinStep.user_should_perform_search_hotel_with_and(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2353700214,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should perform select the hotel",
+            "match": {
+              "location": "AdactinStep.user_should_perform_select_the_hotel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2021227971,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should perform book hotel with \"Dharma\",\"Prakash\",\"OMR Chennai\",\"8766389879387331\",\"VISA\",\"October\",\"2022\" and \"1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dharma\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"Prakash\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"OMR Chennai\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"8766389879387331\"",
+                  "offset": 69
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 88
+                },
+                {
+                  "val": "\"October\"",
+                  "offset": 95
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 105
+                },
+                {
+                  "val": "\"1234\"",
+                  "offset": 116
+                }
+              ],
+              "location": "AdactinStep.user_should_perform_book_hotel_with_and(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7471738307,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Verify should after login Booking Confirmation",
+            "match": {
+              "location": "AdactinStep.verify_should_after_login_Booking_Confirm()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "Verifying login page using right credentials",
+        "description": "",
+        "id": "verifying-adactin-hotel-details;verifying-login-page-using-right-credentials;;7",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 18388818351,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the adactin login page",
+            "match": {
+              "location": "AdactinStep.user_is_on_the_adactin_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6295722890,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should perform login with \"Kdprakash\" , \"RU97K8\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Kdprakash\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"RU97K8\"",
+                  "offset": 45
+                }
+              ],
+              "location": "AdactinStep.user_should_perform_login_with(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3004301897,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should perform search hotel with \"Los Angeles\",\"Hotel Hervey\",\"Standard\",\"4 - Four\",\"03/07/2022\",\"04/07/2022\",\"2 - Two\"and\"2 - Two\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Los Angeles\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"Hotel Hervey\"",
+                  "offset": 52
+                },
+                {
+                  "val": "\"Standard\"",
+                  "offset": 67
+                },
+                {
+                  "val": "\"4 - Four\"",
+                  "offset": 78
+                },
+                {
+                  "val": "\"03/07/2022\"",
+                  "offset": 89
+                },
+                {
+                  "val": "\"04/07/2022\"",
+                  "offset": 102
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 115
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 127
+                }
+              ],
+              "location": "AdactinStep.user_should_perform_search_hotel_with_and(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2137536359,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should perform select the hotel",
+            "match": {
+              "location": "AdactinStep.user_should_perform_select_the_hotel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1664562021,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should perform book hotel with \"Dharma\",\"Prakash\",\"OMR Chennai\",\"8766389879387331\",\"VISA\",\"October\",\"2022\" and \"1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dharma\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"Prakash\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"OMR Chennai\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"8766389879387331\"",
+                  "offset": 69
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 88
+                },
+                {
+                  "val": "\"October\"",
+                  "offset": 95
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 105
+                },
+                {
+                  "val": "\"1234\"",
+                  "offset": 116
+                }
+              ],
+              "location": "AdactinStep.user_should_perform_book_hotel_with_and(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7824025210,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Verify should after login Booking Confirmation",
+            "match": {
+              "location": "AdactinStep.verify_should_after_login_Booking_Confirm()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "Verifying login page using right credentials",
+        "description": "",
+        "id": "verifying-adactin-hotel-details;verifying-login-page-using-right-credentials;;8",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 16202773519,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the adactin login page",
+            "match": {
+              "location": "AdactinStep.user_is_on_the_adactin_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7127994051,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should perform login with \"Kdprakash\" , \"RU97K8\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Kdprakash\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"RU97K8\"",
+                  "offset": 45
+                }
+              ],
+              "location": "AdactinStep.user_should_perform_login_with(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3456044159,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should perform search hotel with \"Paris\",\"Hotel Sunshine\",\"Super Deluxe\",\"4 - Four\",\"02/07/2022\",\"03/07/2022\",\"3 - Three\"and\"2 - Two\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Paris\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"Hotel Sunshine\"",
+                  "offset": 46
+                },
+                {
+                  "val": "\"Super Deluxe\"",
+                  "offset": 63
+                },
+                {
+                  "val": "\"4 - Four\"",
+                  "offset": 78
+                },
+                {
+                  "val": "\"02/07/2022\"",
+                  "offset": 89
+                },
+                {
+                  "val": "\"03/07/2022\"",
+                  "offset": 102
+                },
+                {
+                  "val": "\"3 - Three\"",
+                  "offset": 115
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 129
+                }
+              ],
+              "location": "AdactinStep.user_should_perform_search_hotel_with_and(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1663609145,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should perform select the hotel",
+            "match": {
+              "location": "AdactinStep.user_should_perform_select_the_hotel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1955984655,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should perform book hotel with \"Dharma\",\"Prakash\",\"OMR Chennai\",\"8766389879387331\",\"VISA\",\"October\",\"2022\" and \"1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dharma\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"Prakash\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"OMR Chennai\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"8766389879387331\"",
+                  "offset": 69
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 88
+                },
+                {
+                  "val": "\"October\"",
+                  "offset": 95
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 105
+                },
+                {
+                  "val": "\"1234\"",
+                  "offset": 116
+                }
+              ],
+              "location": "AdactinStep.user_should_perform_book_hotel_with_and(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8167806808,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Verify should after login Booking Confirmation",
+            "match": {
+              "location": "AdactinStep.verify_should_after_login_Booking_Confirm()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "Verifying login page using right credentials",
+        "description": "",
+        "id": "verifying-adactin-hotel-details;verifying-login-page-using-right-credentials;;9",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 27478795009,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the adactin login page",
+            "match": {
+              "location": "AdactinStep.user_is_on_the_adactin_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6501909036,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should perform login with \"Kdprakash\" , \"RU97K8\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Kdprakash\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"RU97K8\"",
+                  "offset": 45
+                }
+              ],
+              "location": "AdactinStep.user_should_perform_login_with(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2948653006,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should perform search hotel with \"Melbourne\",\"Hotel Hervey\",\"Double\",\"3 - Three\",\"03/07/2022\",\"04/07/2022\",\"2 - Two\"and\"3 - Three\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Melbourne\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"Hotel Hervey\"",
+                  "offset": 50
+                },
+                {
+                  "val": "\"Double\"",
+                  "offset": 65
+                },
+                {
+                  "val": "\"3 - Three\"",
+                  "offset": 74
+                },
+                {
+                  "val": "\"03/07/2022\"",
+                  "offset": 86
+                },
+                {
+                  "val": "\"04/07/2022\"",
+                  "offset": 99
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 112
+                },
+                {
+                  "val": "\"3 - Three\"",
+                  "offset": 124
+                }
+              ],
+              "location": "AdactinStep.user_should_perform_search_hotel_with_and(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2342347359,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should perform select the hotel",
+            "match": {
+              "location": "AdactinStep.user_should_perform_select_the_hotel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1684918369,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should perform book hotel with \"Dharma\",\"Prakash\",\"OMR Chennai\",\"8766389879387331\",\"VISA\",\"October\",\"2022\" and \"1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dharma\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"Prakash\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"OMR Chennai\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"8766389879387331\"",
+                  "offset": 69
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 88
+                },
+                {
+                  "val": "\"October\"",
+                  "offset": 95
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 105
+                },
+                {
+                  "val": "\"1234\"",
+                  "offset": 116
+                }
+              ],
+              "location": "AdactinStep.user_should_perform_book_hotel_with_and(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7539596492,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Verify should after login Booking Confirmation",
+            "match": {
+              "location": "AdactinStep.verify_should_after_login_Booking_Confirm()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Verifying login page using right credentials",
+        "description": "",
+        "id": "verifying-adactin-hotel-details;verifying-login-page-using-right-credentials;;10",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 16020092891,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the adactin login page",
+            "match": {
+              "location": "AdactinStep.user_is_on_the_adactin_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5760244038,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should perform login with \"Kdprakash\" , \"RU97K8\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Kdprakash\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"RU97K8\"",
+                  "offset": 45
+                }
+              ],
+              "location": "AdactinStep.user_should_perform_login_with(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3218451252,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should perform search hotel with \"Sydney\",\"Hotel Hervey\",\"Standard\",\"6 - Six\",\"08/07/2022\",\"09/07/2022\",\"2 - Two\"and\"2 - Two\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"Hotel Hervey\"",
+                  "offset": 47
+                },
+                {
+                  "val": "\"Standard\"",
+                  "offset": 62
+                },
+                {
+                  "val": "\"6 - Six\"",
+                  "offset": 73
+                },
+                {
+                  "val": "\"08/07/2022\"",
+                  "offset": 83
+                },
+                {
+                  "val": "\"09/07/2022\"",
+                  "offset": 96
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 109
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 121
+                }
+              ],
+              "location": "AdactinStep.user_should_perform_search_hotel_with_and(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1672934777,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should perform select the hotel",
+            "match": {
+              "location": "AdactinStep.user_should_perform_select_the_hotel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1969020023,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should perform book hotel with \"Dharma\",\"Prakash\",\"OMR Chennai\",\"8766389879387331\",\"VISA\",\"October\",\"2022\" and \"1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dharma\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"Prakash\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"OMR Chennai\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"8766389879387331\"",
+                  "offset": 69
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 88
+                },
+                {
+                  "val": "\"October\"",
+                  "offset": 95
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 105
+                },
+                {
+                  "val": "\"1234\"",
+                  "offset": 116
+                }
+              ],
+              "location": "AdactinStep.user_should_perform_book_hotel_with_and(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8130607690,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Verify should after login Booking Confirmation",
+            "match": {
+              "location": "AdactinStep.verify_should_after_login_Booking_Confirm()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "Verifying login page using right credentials",
+        "description": "",
+        "id": "verifying-adactin-hotel-details;verifying-login-page-using-right-credentials;;11",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 17626749402,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the adactin login page",
+            "match": {
+              "location": "AdactinStep.user_is_on_the_adactin_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10441591378,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should perform login with \"Kdprakash\" , \"RU97K8\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Kdprakash\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"RU97K8\"",
+                  "offset": 45
+                }
+              ],
+              "location": "AdactinStep.user_should_perform_login_with(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2877894332,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should perform search hotel with \"Adelaide\",\"Hotel Hervey\",\"Double\",\"4 - Four\",\"03/07/2022\",\"04/07/2022\",\"2 - Two\"and\"2 - Two\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Adelaide\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"Hotel Hervey\"",
+                  "offset": 49
+                },
+                {
+                  "val": "\"Double\"",
+                  "offset": 64
+                },
+                {
+                  "val": "\"4 - Four\"",
+                  "offset": 73
+                },
+                {
+                  "val": "\"03/07/2022\"",
+                  "offset": 84
+                },
+                {
+                  "val": "\"04/07/2022\"",
+                  "offset": 97
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 110
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 122
+                }
+              ],
+              "location": "AdactinStep.user_should_perform_search_hotel_with_and(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2160174768,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should perform select the hotel",
+            "match": {
+              "location": "AdactinStep.user_should_perform_select_the_hotel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1666141532,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should perform book hotel with \"Dharma\",\"Prakash\",\"OMR Chennai\",\"8766389879387331\",\"VISA\",\"October\",\"2022\" and \"1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dharma\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"Prakash\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"OMR Chennai\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"8766389879387331\"",
+                  "offset": 69
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 88
+                },
+                {
+                  "val": "\"October\"",
+                  "offset": 95
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 105
+                },
+                {
+                  "val": "\"1234\"",
+                  "offset": 116
+                }
+              ],
+              "location": "AdactinStep.user_should_perform_book_hotel_with_and(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10215727633,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Verify should after login Booking Confirmation",
+            "match": {
+              "location": "AdactinStep.verify_should_after_login_Booking_Confirm()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verifying Adactin Hotel details",
+    "description": "",
+    "id": "verifying-adactin-hotel-details",
+    "keyword": "Feature",
+    "uri": "src/test/resources/FeatureFiles/adactin.feature",
+    "tags": []
+  }
+]
